@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/inter</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/nunito</item>
+        <item>@font/open_sans_light</item>
+        <item>@font/open_sans_medium</item>
+        <item>@font/roboto</item>
+    </array>
+</resources>

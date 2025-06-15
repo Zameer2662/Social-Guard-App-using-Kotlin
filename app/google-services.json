@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "122412432577",
+    "project_id": "social-guard-dfa63",
+    "storage_bucket": "social-guard-dfa63.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122412432577:android:e401074b09a75212d16840",
+        "android_client_info": {
+          "package_name": "com.example.socialguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122412432577-phq0s6e42d6uun5p5rorhdh92q7p65f9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialguard",
+            "certificate_hash": "5f30921aa8ca562730caeb97abbb5dbb9b219135"
+          }
+        },
+        {
+          "client_id": "122412432577-srt3h1j4nlhjh0cg0t42s5plh18l3n37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMdgyhMCWx1BnbZhPT94rS-neKMEYLW5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122412432577-srt3h1j4nlhjh0cg0t42s5plh18l3n37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

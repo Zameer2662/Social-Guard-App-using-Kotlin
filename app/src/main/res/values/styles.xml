@@ -1,0 +1,9 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="CustomSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">#0ec5bb</item> <!-- Thumb and progress color -->
+        <item name="android:thumbTint">#0ec5bb</item> <!-- Thumb color -->
+        <item name="android:progressTint">#0ec5bb</item> <!-- Progress bar color -->
+        <item name="android:progressBackgroundTint">#0ec5bb</item> <!-- Background bar color -->
+    </style>
+</resources>

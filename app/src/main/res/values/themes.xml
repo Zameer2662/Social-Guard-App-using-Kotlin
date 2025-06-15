@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MyVPN" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.MyVPN" parent="Base.Theme.MyVPN" />
+</resources>

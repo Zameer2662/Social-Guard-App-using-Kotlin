@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyVPN"
+        tools:targetApi="31">
+        <activity
+            android:name=".webviewtiktok"
+            android:exported="false" />
+        <activity
+            android:name=".webviewtwitter"
+            android:exported="false" />
+        <activity
+            android:name=".webviewlinkedin"
+            android:exported="false" />
+        <activity
+            android:name=".webviewfacebook"
+            android:exported="false" />
+        <activity
+            android:name=".webviewinstagram"
+            android:exported="false" />
+        <activity
+            android:name=".webviewyoutube"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilesettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppupdatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModerationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationpresferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".senstivityactivity"
+            android:exported="false" />
+        <activity
+            android:name=".connectedplatformactivity"
+            android:exported="false" />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notificationpermission"
+            android:exported="false" />
+        <activity
+            android:name=".termsandconditions"
+            android:exported="false" />
+        <activity
+            android:name=".introductivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

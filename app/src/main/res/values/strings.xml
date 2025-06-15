@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Social Guard</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">122412432577-srt3h1j4nlhjh0cg0t42s5plh18l3n37.apps.googleusercontent.com</string>
+
+    <string-array name="report_options">
+        <item>Spam</item>
+        <item>Abuse</item>
+        <item>Harassment</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Language_options">
+        <item>English</item>
+        <item>Urdu</item>
+        <item>Hindi</item>
+    </string-array>
+
+    <string-array name="mod_setting">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+
+    <string-array name="log_spinner">
+        <item>Basic</item>
+        <item>Advanced</item>
+
+    </string-array>
+</resources>
